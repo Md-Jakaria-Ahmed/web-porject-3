@@ -1,0 +1,48 @@
+/*body{
+	background: #333;
+	color: #fff;
+}*/
+
+.navbar{
+	 box-shadow: 2px 2px 5px #3292a6;
+	 opacity: 0.8;
+}
+.nav-item{
+	font-size: 1.4rem;
+	padding-right: 20px;
+}
+.nav-item:last-child{
+	padding-right: 0;
+}
+
+#home-section{
+	background: url('../img/natural.jpeg') no-repeat center top;
+	background-size: cover;
+	min-height: 700px;
+	background-attachment: fixed;
+}
+ .primary-overlay{
+	background: rgba(50,146,156,0.7);
+	min-height: 700px;
+	}
+
+ .home-inner{
+ 	padding-top: 150px;
+ 	padding-bottom: 50px;
+ }
+
+#author-section img{
+	margin-top: -30%;
+}
+
+#author-section .card:hover{
+	background: #44958d;
+	color: #fff;
+}
+#size{
+	font-size: 25px;
+	color: #000;
+}
+#size:hover{
+	color: #fff;
+}
